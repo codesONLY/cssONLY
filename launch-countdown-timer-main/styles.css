@@ -1,0 +1,68 @@
+@import url('https://fonts.google.com/specimen/Red+Hat+Text');
+
+:root{
+    --grayish-blue:hsl(237, 18%, 59%);
+    --soft-red: hsl(345, 95%, 68%);
+    --white: hsl(0, 0%, 100%);
+    --dark-desaturated-blue:hsl(236, 21%, 26%);
+    --dark-desaturated-blue-opacity:hsl(236, 21%, 26%,0.8);
+    --dark-blue:hsl(235, 16%, 14%);
+    --very-dark-blue: hsl(234, 17%, 12%);
+}
+
+body{
+    background-image: url("./images/bg-stars.svg");
+    background-color: var(--very-dark-blue);
+    font-family: 'Red Hat Text', sans-serif;
+    
+}
+
+footer{
+    background-image: url("./images/pattern-hills.svg") !important;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 1440px;
+    height: 197px;
+}
+
+.main-content{
+    text-align: center;
+    font-size: 14px;
+    color: var(--white);
+    letter-spacing: 0.5rem;
+    padding-top: 10%;
+    font-weight: 700;
+    
+}
+
+.cards{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:3%;
+    color: var(--soft-red);
+    text-align: center;
+}
+
+.card{
+    width:8rem;
+    height:8rem;
+    background: linear-gradient(to bottom, var(--dark-desaturated-blue-opacity) 50%, var(--dark-desaturated-blue) 50%);
+    margin:2rem;
+    box-shadow: 0 6px 4px black;
+    border-radius: 0.3rem;
+    top:50%;
+}
+
+.social-media{
+    display:flex;
+    height: 197px;
+    justify-content: center;
+    align-items:center;
+}
+
+.social-media > img{
+    padding:1rem;
+}
+
