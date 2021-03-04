@@ -43,18 +43,6 @@ When there's more text in one card you would want the primary buttons to align.
 
 ## ex05: Shrink and Grow
 
-### understanding
-
-The flex is useful to control what happens when something grows and shrinks. That's where it shines. So what happens if you add a `heading` in this card too? The previous exercise won't work out now. 
-
-We need to control what grows and fills the empty space. 
-
-See the demo: [https://developer.mozilla.org/en-US/docs/Web/CSS/flex-grow](https://developer.mozilla.org/en-US/docs/Web/CSS/flex-grow)
-
-And see how the shrink works: [https://developer.mozilla.org/en-US/docs/Web/CSS/flex-shrink](https://developer.mozilla.org/en-US/docs/Web/CSS/flex-shrink)
-
-This is applied to the child.
-
 ### challenge
 
 Make use of `flex-grow` and `flex-shrink` on the right element to make this work when size changes.
@@ -73,19 +61,7 @@ Use the placeholder for image: [`https://via.placeholder.com/150`](https://via.p
 
 ---
 
-## ex07: make the cards wrap
-
-### understanding
-
-When window size decreases the cards shrink. But we can `wrap` the items in a row so that when the width decreases card will go down.
-
-Syntax.
-
-```css
-flex-wrap: nowrap; /* Default value */
-flex-wrap: wrap;
-flex-wrap: wrap-reverse;
-```
+## ex07: Card wrap
 
 ### challenge
 

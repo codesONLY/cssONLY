@@ -1,0 +1,19 @@
+.card {
+    max-width: 300px;
+    min-height: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid;
+    padding: 2%;
+}
+
+.card>p {
+    flex-grow: 1;
+}
+
+.thumbnail{
+    width:100%;
+    height:100%;
+}
