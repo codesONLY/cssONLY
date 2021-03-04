@@ -52,7 +52,11 @@ footer{
     margin:2rem;
     box-shadow: 0 6px 4px black;
     border-radius: 0.3rem;
-    top:50%;
+}
+
+.card p{
+    padding-bottom: 4rem;
+    font-size: 4rem;
 }
 
 .social-media{
