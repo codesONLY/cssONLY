@@ -1,0 +1,74 @@
+# flex
+
+## ex01: put three divs horizontally
+
+### challenge
+
+- Make a parent div.
+- Create a class `row` and apply this to the div.
+- Now create three divs as children.
+- The children should go horizontal.
+
+
+---
+
+
+### ex02: practice align
+
+Take a parent div and three child divs. parent should align all children to center. However, the third child needs to go end of flex.
+
+Give your parent a height of 500 pixels.
+
+---
+
+## ex03: Create a card
+
+### challenge
+
+- Create a div
+- Create a class `card` for the div
+- Add text in it in `p` tag
+- Add a button in the div `Primary Button` too.
+- The p and button should go vertically.
+
+---
+
+## ex04: Justify-content
+
+### challenge
+
+When there's more text in one card you would want the primary buttons to align.
+
+---
+
+## ex05: Shrink and Grow
+
+### challenge
+
+Make use of `flex-grow` and `flex-shrink` on the right element to make this work when size changes.
+
+This is without the grow/shrink.
+
+---
+
+## ex06: Thumbnail Image to the Card
+
+Note: Give your card class a max-width of 200px otherwise the image will stretch. We'll cover putting card in grid and then making image responsive and this issue will go away. 
+
+### challenge
+
+Use the placeholder for image: [`https://via.placeholder.com/150`](https://via.placeholder.com/150)
+
+---
+
+## ex07: Card wrap
+
+### challenge
+
+Apply `flex-wrap` on `row` class and then cards will start wrapping.
+
+---
+
+
+
+
