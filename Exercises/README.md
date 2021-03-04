@@ -99,6 +99,40 @@ Put the remove button on the card we created earlier. You can find the svg for t
 
 Tip: When you're doing it make sure that the `padding-top` and `padding-left` are inherited so that card's internal padding is not messed up.
 
+---
+
+## ex11: overlay text on card image
+
+---
+
+## ex12: row with three columns
+
+### challenge
+
+Create a `grid-row` class. Three columns with gap of 1 rem.
+
+---
+
+## ex13: let's start with mobile-first
+
+### challenge
+
+1. Make the background color of your screen (body) yellow.
+2. Now, write a media query which makes the background color `transparent` when the screen size is more than 640px.
+
+---
+
+## ex14: Mobile Friendly Grid
+
+### challenge
+
+1. Create a class row.
+2. Put three cards in it. 
+3. For mobile, it should show two cards in one row.
+4. For desktop, it should show three cards in one row.
+
+---
+
 
 
 
