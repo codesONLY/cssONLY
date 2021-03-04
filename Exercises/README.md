@@ -89,6 +89,16 @@ Use `position:fixed` to create this component below:
 - A notification component will be positioned to the bottom of the window.
 - Make it 1rem away from right and bottom.
 
+---
+
+## ex10: remove button on the card
+
+### challenge
+
+Put the remove button on the card we created earlier. You can find the svg for this later. You can start with just a button with `X` in place.
+
+Tip: When you're doing it make sure that the `padding-top` and `padding-left` are inherited so that card's internal padding is not messed up.
+
 
 
 
