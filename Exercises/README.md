@@ -80,6 +80,15 @@ Use `position:relative` to create this component below:
 
 ---
 
+## ex09: Snackbar
+
+### challenge
+
+Use `position:fixed` to create this component below:
+
+- A notification component will be positioned to the bottom of the window.
+- Make it 1rem away from right and bottom.
+
 
 
 

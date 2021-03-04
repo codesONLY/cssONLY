@@ -1,0 +1,7 @@
+.snackbar{
+    position: fixed;
+    right:1rem;
+    bottom:1rem;
+    padding:0.5rem;
+    border: solid 1px;
+}
