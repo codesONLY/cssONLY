@@ -1,0 +1,13 @@
+.row{
+    display:flex;
+    width:400px;
+    height: 300px;
+  }
+  
+  .row > div{
+    margin:1rem;
+    width: 100px;
+    height: 100px;
+    border: 1px solid;
+    
+  }
