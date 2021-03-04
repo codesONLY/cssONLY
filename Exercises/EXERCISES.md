@@ -33,13 +33,7 @@ Give your parent a height of 500 pixels.
 
 ---
 
-## ex04: justify-content
-
-### understanding
-
-The justify-content property aligns the flexible container's items when the items do not use all available space on the main-axis (horizontally).
-
-`justify-content: flex-start|flex-end|center|space-between|space-around|space-evenly;` 
+## ex04: Justify-content
 
 ### challenge
 
