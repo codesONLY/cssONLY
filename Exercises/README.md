@@ -1,4 +1,4 @@
-# flex
+# CSS Exercises
 
 ## ex01: put three divs horizontally
 
@@ -66,6 +66,17 @@ Use the placeholder for image: [`https://via.placeholder.com/150`](https://via.p
 ### challenge
 
 Apply `flex-wrap` on `row` class and then cards will start wrapping.
+
+---
+
+## ex08: Superscript 
+
+### challenge
+
+Use `position:relative` to create this component below: 
+
+- a `class=superscript` which when used in any text it will make it small and move to the top.
+- Now, this is about **relative sizing of fonts**. So use `em`. This is the best use case of relative sizing based on the font size it is inheriting.
 
 ---
 
