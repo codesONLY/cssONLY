@@ -133,6 +133,11 @@ Create a `grid-row` class. Three columns with gap of 1 rem.
 
 ---
 
+## ex15: Modal Component
+
+1. Create a Modal 
+2. Add close button to it
+
 
 
 
