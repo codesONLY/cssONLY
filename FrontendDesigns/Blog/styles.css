@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Lato', sans-serif;
+}
+
+:root{
+    --background-color: #212121;
+}
+.container{
+    display:grid;
+    grid-template-areas:"navbar navbar navbar navbar"
+    "hero hero hero hero"
+    "banner banner banner-content banner-content";
+    grid-template-rows: 10% 30% auto;
+    grid-template-columns: 25% 25% 25% 25%;
+    height:100vh;
+    width: 100vw;
+}
+
+.navbar{
+    grid-area: navbar;
+    background-color: var(--background-color);
+    color: #eee;
+}
+
+.navbar ul{
+    list-style: none;
+
+}
+
+.navbar li{
+    display: inline;
+    padding: 0 1rem;
+    float:left;
+}
+
+.navbar .CTA{ 
+    position:relative;  
+    float: right;
+
+}
+
+.hero{
+    grid-area: hero;
+    background-color: var(--background-color);
+    color: #eee;
+    text-align: center;
+    
+}
+
+.hero-content{
+    padding-top:2rem;
+}
+
+.banner{
+    grid-area: banner;
+    padding:2rem 4rem;
+}
+
+.banner img{
+    max-width:100%;
+    height:auto;
+}
+
+.banner-content{
+    padding: 2rem 4rem;
+    padding-left:1rem;
+
+    grid-area: banner-content;
+}
+
+
+.cards{
+    grid-area: cards;
+}
+
+.footer{
+    grid-area: footer;
+}
