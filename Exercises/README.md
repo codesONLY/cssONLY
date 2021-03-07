@@ -138,6 +138,13 @@ Create a `grid-row` class. Three columns with gap of 1 rem.
 1. Create a Modal 
 2. Add close button to it
 
+---
+
+## ex16: Floating Action Button
+
+1. Add floating action button
+2. Position it to the right bottom of the screen
+
 
 
 

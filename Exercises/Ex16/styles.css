@@ -1,0 +1,22 @@
+.floating-action-button{
+    position: fixed;
+    bottom:10px;
+    right:10px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    font-size: 2rem;
+    background:#074494;
+    color: white;
+    outline: none;
+    border: none;
+    
+
+}
+
+.floating-action-button:hover {
+    background:#30588e;
+    color: white;
+  }
+
+.floating-action-button:focus{outline:none;}
