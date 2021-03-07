@@ -16,9 +16,9 @@ body{
     "banner banner banner-content banner-content";
     grid-template-rows: 10% 30% auto;
     grid-template-columns: 25% 25% 25% 25%;
-    height:100vh;
-    width: 100vw;
+
 }
+
 
 .navbar{
     grid-area: navbar;
@@ -48,6 +48,7 @@ body{
     background-color: var(--background-color);
     color: #eee;
     text-align: center;
+    padding: 2rem;
     
 }
 
@@ -57,24 +58,45 @@ body{
 
 .banner{
     grid-area: banner;
-    padding:2rem 4rem;
+    padding:5rem 4rem;
+    display:flex;
+    justify-content: center;
+    align-self: center;;
 }
 
 .banner img{
-    max-width:100%;
+    max-width:100% ;
     height:auto;
 }
 
 .banner-content{
-    padding: 2rem 4rem;
+    padding: 5rem 4rem;
     padding-left:1rem;
 
     grid-area: banner-content;
 }
 
-
 .cards{
-    grid-area: cards;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+
+.card{
+    padding: 0rem 1rem;
+    max-width: 28.5%;
+    /* min-height: 500px; */
+}
+
+.card img{
+    width:100%;
+    height:50%;
+}
+
+.card p{
+    text-align: justify;
+  text-justify: inter-word;
+  
 }
 
 .footer{
