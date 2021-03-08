@@ -1,0 +1,60 @@
+body{
+    background-color: #000;
+    color: white;
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root{
+    --primary-color: rgb(121, 75, 196);
+    --like: rgb(224, 36, 94);
+}
+
+.container{
+    display:grid;
+    grid-template-columns: 0.25fr 0.75fr 1fr 1fr;
+    grid-template-areas:". navbar  feed  sidebar";
+    width:100vw;
+    height:100vh;
+}
+
+.navbar{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items:flex-start;
+    grid-area: navbar;
+    padding: 1rem;
+    font-weight: bold;
+    font-size: 1.1rem;;
+}
+
+.navbar .nav-brand{
+    padding:0.5rem 1rem;
+    width:100%;
+    text-align: left;
+    
+}
+
+.navbar .nav-pills{
+    padding:1rem 1rem;
+    text-align: left;
+    display: inline;
+    border-radius: 50px;
+}
+
+.nav-pills:hover{
+    background-color: rgba(121, 75, 196,0.2);
+}
+
+.navbar .tweet{
+    
+    padding:0.7rem 1rem;
+    background-color: var(--primary-color);
+    border-radius: 50px;
+    width:50%;
+    text-align:center;
+    font-size: 0.8rem;
+       
+}
