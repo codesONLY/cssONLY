@@ -58,7 +58,8 @@ body{
 
 .banner{
     grid-area: banner;
-    padding:5rem 4rem;
+    padding:5rem 2rem;
+    padding-left:8rem;
     display:flex;
     justify-content: center;
     align-self: center;;
@@ -70,21 +71,22 @@ body{
 }
 
 .banner-content{
-    padding: 5rem 4rem;
-    padding-left:1rem;
-
+    padding: 5rem 2rem;
+    padding-right:8rem;
     grid-area: banner-content;
 }
 
 .cards{
-    display:flex;
-    flex-wrap:wrap;
-    justify-content: center;
+    display:grid;
+    /* grid-template-areas: "card card card"; */
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0rem 7rem;
+    justify-content:start;
 }
 
 .card{
     padding: 0rem 1rem;
-    max-width: 28.5%;
+    /* max-width: 28.5%; */
     /* min-height: 500px; */
 }
 
