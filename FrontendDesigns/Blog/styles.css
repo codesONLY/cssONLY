@@ -8,13 +8,14 @@ body{
 
 :root{
     --background-color: #212121;
+    --primary-color:#F0DB4F;
 }
 .container{
     display:grid;
     grid-template-areas:"navbar navbar navbar navbar"
     "hero hero hero hero"
     "banner banner banner-content banner-content";
-    grid-template-rows: 10% 30% auto;
+    grid-template-rows: 10% 40% auto;
     grid-template-columns: 25% 25% 25% 25%;
 
 }
@@ -40,6 +41,10 @@ body{
 .navbar .CTA{ 
     position:relative;  
     float: right;
+    margin-right:1rem;
+    background-color: #eee;
+    border-radius: 16px;
+    color:#212121
 
 }
 
@@ -52,8 +57,21 @@ body{
     
 }
 
+.hero img{
+    width:10%;
+    height:10%;
+}
+
 .hero-content{
-    padding-top:2rem;
+    margin-top:-1rem;
+}
+
+.hero-content h2{
+    font-size: 3rem;
+}
+
+.hero-content p{
+    margin-top:-2%;
 }
 
 .banner{
@@ -87,7 +105,7 @@ body{
 .card{
     padding: 0rem 1rem;
     /* max-width: 28.5%; */
-    /* min-height: 500px; */
+    min-height: 500px;
 }
 
 .card img{
@@ -101,6 +119,46 @@ body{
   
 }
 
+.footer-section{
+    display:grid;
+    grid-template-areas: "join" "footer";
+    grid-template-rows: auto auto;
+    height:30vh;
+    padding: 3rem 0rem;
+    
+}
+
+.join{
+    background-color: var(--primary-color);
+    grid-area:join;
+    padding: 4rem 20rem;
+    text-align: center;
+    
+}
+
+.join h2{
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+.join p{
+    font-size: 1.1rem;
+}
+
+.join ul {
+    padding:1rem;
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0;
+}
 .footer{
-    grid-area: footer;
+    background-color: var(--background-color);
+    color: #eee;
+    padding:2rem;
+    text-align: center;
+    font-size: 1.1rem;
 }
