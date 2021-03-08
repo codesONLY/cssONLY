@@ -1,0 +1,51 @@
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+
+    .container{
+        display:grid;
+        grid-template-areas:"navbar navbar "
+        "hero hero"
+        "banner-content banner-content"
+        "banner banner";
+        grid-template-rows: 10% 30% auto;
+        grid-template-columns: 50% 50% ;
+        width:100vw;
+    }
+
+    .hero-content h2{
+        font-size: 1.2rem;
+    }
+
+    .banner{
+        padding:2rem;
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .banner-content{
+        padding:2rem;
+    }
+
+    .cards{
+        display:grid;
+        grid-template-areas: "card" "card" "card";
+        grid-template-columns: 1fr;
+        padding: 3rem 0rem;
+        padding-bottom:0;
+        justify-content:start;
+    }
+
+    /* .card{
+        max-height: 800px;
+    } */
+
+    .join{
+        background-color: var(--primary-color);
+        grid-area:join;
+        padding: 0rem 5rem;
+        text-align: center;
+        
+    }
+    
+  } 

@@ -96,9 +96,8 @@ body{
 
 .cards{
     display:grid;
-    /* grid-template-areas: "card card card"; */
     grid-template-columns: 1fr 1fr 1fr;
-    padding: 0rem 7rem;
+    padding: 0rem 5rem;
     justify-content:start;
 }
 
