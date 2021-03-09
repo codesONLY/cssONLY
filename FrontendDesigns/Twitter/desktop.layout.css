@@ -27,7 +27,7 @@ body{
     grid-area: navbar;
     padding: 1rem;
     font-weight: bold;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     border-right:ridge 0.2px #eee;
 }
 
@@ -72,7 +72,6 @@ body{
 .name-chip{
     margin-top: auto;
     display:flex; 
-    /* flex-direction: column; */
     justify-content: space-between;
     align-items: center;
     width:100%;
