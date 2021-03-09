@@ -104,6 +104,12 @@ body{
     justify-content: space-between;
     align-items: center;
     width:100%;
+    padding:0 0.1rem;
+}
+
+.name-chip:hover{
+    background-color: rgba(121, 75, 196,0.2);
+    border-radius:32px;
 }
 
 /* Feed */
@@ -168,6 +174,18 @@ body{
     padding-top:1rem;
     display:flex;
     justify-content: space-between;
+    
+}
+
+.options i{
+    padding:0.5rem;
+}
+
+.options i:hover{
+    background-color: rgba(121, 75, 196,0.2);
+    border-radius: 50%;
+    cursor:pointer;
+    
 }
 .tweet-option{
     padding-right: 0.8rem;
@@ -179,10 +197,20 @@ body{
     font-weight: bold;
 }
 
+.tweet-option:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
 .feed-post{
     padding: 0.5rem 1rem;
     border-top: solid rgba(238,238,238,0.2) 0.02px;
     border-bottom: solid rgba(238,238,238,0.2) 0.02px;
+}
+
+.feed-post:hover{
+    background-color: rgba(53, 51, 51, 0.2);
+    cursor:pointer;
 }
 
 .feed-post .up-text{
@@ -225,8 +253,6 @@ body{
 
 .main-tweet .tweet-text{    
     font-size:1rem;
-    /* font-weight: lighter; */
-    
 }
 
 .main-tweet .reactions{
@@ -241,6 +267,8 @@ body{
     padding-left: 0.2rem;
 }
 
+
+
 /* Sidepane */
 
 .sidepane{
@@ -248,11 +276,20 @@ body{
     padding-left:2rem;
     padding-top:0.2rem;
     width:60%;
+    position: sticky;
     
 }
 
+.sidenav{
+    position: sticky;
+    top:0;
+    z-index: 100;
+    background-color: black;
+
+}
 .searchbar{
     background-color: var(--secondary-color);
+    
     
     display: flex;
     padding:0.8rem;
@@ -291,6 +328,8 @@ body{
     border-radius: 16px;
 }
 
+
+
 .side-feed-title{
     padding:0 1rem;
     padding-bottom: 0.5rem;
@@ -304,6 +343,11 @@ body{
     justify-content: space-between;
     padding:0 1rem;
     border-bottom: solid rgba(238,238,238,0.1) 1px;
+}
+
+.covid-side-chip:hover{
+    background-color:rgba(57, 60, 61, 0.2);
+    cursor:pointer;
 }
 
 .covid-banner-heading{
@@ -322,6 +366,11 @@ body{
 .hashtag-side-chip{
     padding: 1rem;
     border-bottom: solid rgba(238,238,238,0.1) 1px;
+}
+
+.hashtag-side-chip:hover{
+    background-color:rgba(57, 60, 61, 0.2);
+    cursor:pointer;
 }
 
 .hashtag-heading{
@@ -356,4 +405,66 @@ body{
 
 .show-more a:hover{
     text-decoration: underline;
+}
+
+.suggestions{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid rgba(238,238,238,0.1) 1px;
+}
+
+
+.suggestions .user-details{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding:1rem;
+    padding-right:0;
+}
+
+.suggestions:hover{
+    background-color:rgba(57, 60, 61, 0.2);
+    cursor:pointer;
+}
+
+.user-details img{
+    width:25%;
+    height:25%;
+    border-radius: 50%;
+}
+
+.suggestion-username-wrapper{
+    padding: 0 0.8rem;
+}
+
+.suggestion-username{
+    font-size: 0.9rem;
+    opacity: 0.5;
+    font-weight: lighter;
+}
+
+.suggestion-name{
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.follow-button{
+    padding: 0.5rem 1.2rem;
+    margin-right:1rem;
+    border: solid 1px var(--primary-color);
+    text-align: center;
+    border-radius: 50px;
+    cursor:pointer;
+    font-weight: bold;
+}
+
+.follow-button:hover{
+    opacity:0.8;
+}
+
+.following{
+    background-color: var(--primary-color);
+    color:white;
+    
 }
