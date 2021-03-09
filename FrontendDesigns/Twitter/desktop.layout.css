@@ -60,9 +60,10 @@ body{
 .navbar .tweet{
     margin:1rem 0;
     padding:1rem 1.2rem;
+
     background-color: var(--primary-color);
     border-radius: 50px;
-    width:70%;
+    width:80%;
     text-align:center;
     font-size: 0.8rem;
        
@@ -70,4 +71,9 @@ body{
 
 .name-chip{
     margin-top: auto;
+    display:flex; 
+    /* flex-direction: column; */
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
 }
