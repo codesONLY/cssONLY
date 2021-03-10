@@ -27,3 +27,33 @@
         display: none;
     }
   }
+
+  @media only screen and (max-width: 960px){
+    .scrollable-section{
+        grid-area: scrollable;
+        display:grid;
+        grid-template-columns: 80%;
+        grid-template-areas:"feed";
+        height:100vh;
+        width:90%;
+        margin-left:auto;
+    }
+
+    .feed{
+        width:100%;
+    }
+
+    .side-feed{
+        display: none;
+    }
+
+    .messages-tab{
+        display: none;
+    }
+    
+  }
+
+  @media only screen and (max-width: 768px){
+      
+  }
+  
