@@ -1,0 +1,29 @@
+@media only screen and (max-width: 1294px) {
+    .nav-pills span{
+        display:none;
+    }
+
+    .min-tweet{
+        display: block;
+    }
+
+    .tweet{
+        display: none;
+    }
+
+    .fixed-section{
+        width:10%;
+    }
+
+    .scrollable-section{
+        width:90%;
+    }
+
+    .name-chip-details{
+        display: none;
+    } 
+
+    .name-chip-more{
+        display: none;
+    }
+  }

@@ -13,10 +13,11 @@ body{
 }
 
 .container{
-    display:grid;
-    grid-template-columns: 1fr 3.29fr;
-    grid-template-areas:"fixed-area  scrollable";
+    display:flex;
+    /* grid-template-columns: 1fr 3.29fr;
+    grid-template-areas:"fixed-area  scrollable"; */
     /* width:100vw !important; */
+    justify-content: space-between;
     height:100vh;
 }
 
@@ -26,15 +27,14 @@ body{
     grid-template-columns: 1fr 1fr;
     grid-template-areas:"feed  sidepane";
     height:100vh;
+    width:75%;
+    margin-left:auto;
 }
 
 .fixed-section{
-    grid-area: fixed-area;
-    display:grid;
-    grid-template-columns: 1fr 2fr;
-    grid-template-areas:". navbar";
     height:100vh;
     position:fixed;
+    width:25%;
 }
 
 /* Messages */
@@ -80,8 +80,6 @@ body{
 
 }
 
-
-
 /* Navbar */
 
 .navbar{
@@ -94,6 +92,8 @@ body{
     font-weight: bold;
     font-size: 1.2rem;
     border-right:ridge 0.2px rgba(238,238,238,0.2);
+    padding-left:22%;
+    height:100vh;
 
 }
 
@@ -136,6 +136,23 @@ body{
     text-align:center;
     font-size: 0.9rem;
        
+}
+
+.min-tweet{
+    display: none;
+    margin:1rem 0;
+    padding:1.5rem;
+
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    text-align:center;
+    font-size: 1.1rem;
+}
+
+.min-tweet:hover{
+    background-color: var(--primary-color);
+    opacity:0.8;
+    cursor:pointer;
 }
 
 .navbar .tweet:hover{
