@@ -14,9 +14,9 @@ body{
 
 .container{
     display:grid;
-    grid-template-columns: 1fr 3.34fr;
+    grid-template-columns: 1fr 3.29fr;
     grid-template-areas:"fixed-area  scrollable";
-    width:100vw;
+    /* width:100vw !important; */
     height:100vh;
 }
 
@@ -36,6 +36,51 @@ body{
     height:100vh;
     position:fixed;
 }
+
+/* Messages */
+
+.messages-tab{
+    position:fixed;
+    bottom:0;
+    right:2rem;
+    width:25%;
+    border-top-right-radius: 16px;
+    border-top-left-radius: 16px;
+    border: solid 0.5px var(--primary-color);
+    z-index:100;
+    background-color: black;
+    box-shadow: 0 0 5px var(--primary-color);
+}
+
+.message-icons{
+    display:flex;
+    justify-content: space-between;
+    padding:0.4rem 1rem;
+    align-items: center;
+    
+}
+
+.message-icons i{
+    margin-right:0.2rem;
+    padding:0.5rem;
+    color: var(--primary-color);
+    font-size: 1.2rem;
+}
+
+.message-icons span{
+    font-size: 1.2rem;
+    font-weight: bolder;
+    cursor:pointer;
+}
+
+.message-icons i:hover{
+    background-color: rgba(121, 75, 196,0.2);
+    cursor:pointer;
+    border-radius: 50%;
+
+}
+
+
 
 /* Navbar */
 
